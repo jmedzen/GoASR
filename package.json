@@ -1,17 +1,25 @@
 {
   "name": "goasr",
-  "version": "0.1.0",
+  "version": "0.1.0-build.009",
+  "build": "009",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8490",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 8490",
     "lint": "eslint"
   },
   "dependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/uuid": "^11.0.0",
+    "better-sqlite3": "^13.0.3",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.54.0",
     "next": "16.4.0",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "tailwind-merge": "^3.7.0",
+    "uuid": "^14.0.2"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
